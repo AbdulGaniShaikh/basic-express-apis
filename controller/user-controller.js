@@ -53,5 +53,5 @@ export const deleteUser = (req, res)=>{
     if(length==users.length){
         res.send(JSON.parse('{"message":"Invalid user id"}'));
     }
-    res.send("id deleted");
+    res.send("user deleted");
 }
